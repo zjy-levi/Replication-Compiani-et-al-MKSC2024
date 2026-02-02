@@ -16,6 +16,9 @@ venv/
 logs/
 *.log
 
+# Local run helper (documented in README.txt; not tracked)
+run.sh
+
 # Data (exclude)
 data/
 
