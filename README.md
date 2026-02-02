@@ -15,7 +15,7 @@
 - `run.sh`：本地便捷脚本（**不随仓库发布**；命令已写入 `README.txt`）
 
 ### 数据说明（仓库不包含数据）
-由于数据体积/许可原因，本仓库不包含 `data/`。你需要在本地准备：
+由于数据体积/许可原因，本仓库不包含 `data/`。你需要在本地准备。数据可从paper online appendix中下载 (https://doi.org/10.1287/mksc.2022.0071.)：
 - 训练数据：`data/preparedata_new.parquet`（或 `.csv`）
 - 初始值：`data/initial_value.csv`（或 `.mat`）
 - 可选：`data/randcustsample_seed123.csv`、`data/eps_draws_seed123.csv`（用于更接近 MATLAB 的抽样与 eps 抽样）
@@ -55,7 +55,7 @@ This repo contains our Python replication of the paper’s **demand-side model e
 - `run.sh`: local helper script (**not pushed**); commands are documented in `README.txt`
 
 ### Data (not included)
-You must provide your own `data/` folder locally, e.g.:
+You must provide your own `data/` folder locally, e.g. Data can be collected from online Appendix of the original paper (https://doi.org/10.1287/mksc.2022.0071.).
 - `data/preparedata_new.parquet` (or `.csv`)
 - `data/initial_value.csv` (or `.mat`)
 - Optional: `data/randcustsample_seed123.csv`, `data/eps_draws_seed123.csv`
